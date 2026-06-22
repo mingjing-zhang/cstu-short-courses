@@ -11,3 +11,4 @@ data/store.json.bak*
 .DS_Store
 screenshots
 *.md
+*.pdf

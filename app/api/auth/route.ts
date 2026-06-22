@@ -9,7 +9,7 @@ const DEFAULT_PASSWORD = "lovecstu1234";
 // Opaque session token. Set SESSION_TOKEN in prod; the default keeps local dev
 // working. Middleware compares the cookie against this exact value, so a blank
 // or arbitrary cookie can no longer pass the gate.
-const SESSION_TOKEN = process.env.SESSION_TOKEN || "catalyst-staff-session";
+const SESSION_TOKEN = process.env.SESSION_TOKEN || "cstu-courses-staff-session";
 
 export async function POST(req: Request) {
   let password = "";

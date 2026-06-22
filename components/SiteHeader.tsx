@@ -5,9 +5,9 @@ export default function SiteHeader() {
     <header className="border-b hairline">
       <div className="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
         <Link href="/" className="inline-flex flex-col leading-none">
-          <span className="font-display italic text-2xl">Catalyst</span>
+          <span className="font-display italic text-2xl">CSTU Short Courses</span>
           <span className="text-[10px] uppercase tracking-[0.2em] text-muted mt-1">
-            Short AI Courses
+            AI Courses · Ship in Weeks
           </span>
         </Link>
         <nav className="flex items-center gap-6 text-sm">

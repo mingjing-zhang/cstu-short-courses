@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 
 const COOKIE = "staff_session";
-const SESSION_TOKEN = process.env.SESSION_TOKEN || "catalyst-staff-session";
+const SESSION_TOKEN = process.env.SESSION_TOKEN || "cstu-courses-staff-session";
 
 // Admin pages + the back-office APIs require a staff session.
 const PROTECTED_API = [

@@ -226,7 +226,7 @@ export default function ShareTool({
     // footer brand
     ctx.fillStyle = muted;
     ctx.font = `italic 32px ${serif}`;
-    ctx.fillText("Catalyst — Short AI Courses", M, 1240);
+    ctx.fillText("CSTU Short Courses", M, 1240);
 
     setPosterUrl(canvas.toDataURL("image/png"));
   }
@@ -235,7 +235,7 @@ export default function ShareTool({
     if (!posterUrl) return;
     const a = document.createElement("a");
     a.href = posterUrl;
-    a.download = `catalyst-${course.id}-${code}.png`;
+    a.download = `cstu-short-courses-${course.id}-${code}.png`;
     a.click();
   }
 

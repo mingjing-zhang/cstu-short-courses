@@ -24,7 +24,7 @@ export default async function CourseLanding({
       <div className="border-b hairline">
         <div className="max-w-6xl mx-auto px-6 sm:px-10 py-4 flex items-center justify-between text-sm">
           <Link href="/" className="font-display italic text-lg">
-            Catalyst
+            CSTU Short Courses
           </Link>
           <div className="flex items-center gap-5 text-muted">
             <Link href="/#courses" className="hover:text-ink">All cohorts</Link>
@@ -169,7 +169,7 @@ export default async function CourseLanding({
 
         {/* Why */}
         <section className="py-16 border-t hairline bg-paper-2 -mx-6 sm:-mx-10 px-6 sm:px-10 rounded-2xl">
-          <div className="text-xs uppercase tracking-[0.18em] text-accent">§04 — Why Catalyst</div>
+          <div className="text-xs uppercase tracking-[0.18em] text-accent">§04 — Why this cohort</div>
           <h2 className="font-display text-4xl sm:text-5xl mt-3 max-w-3xl">
             The course we wish existed when we started.
           </h2>
@@ -207,7 +207,7 @@ export default async function CourseLanding({
 
       <footer className="border-t hairline">
         <div className="max-w-6xl mx-auto px-6 sm:px-10 py-8 text-xs text-muted flex flex-wrap justify-between gap-3">
-          <span>Catalyst · a CSTU capstone demo · CSE642 (frontend + AI) × CSE552 (full-stack)</span>
+          <span>CSTU Short Courses · a CSTU capstone demo · CSE642 (frontend + AI) × CSE552 (full-stack)</span>
           <span>Demo content for illustration.</span>
         </div>
       </footer>

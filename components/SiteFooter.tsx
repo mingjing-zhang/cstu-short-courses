@@ -2,7 +2,7 @@ export default function SiteFooter() {
   return (
     <footer className="border-t hairline mt-20">
       <div className="max-w-5xl mx-auto px-6 py-10 text-sm text-muted">
-        <div className="font-display italic text-lg text-ink">Catalyst</div>
+        <div className="font-display italic text-lg text-ink">CSTU Short Courses</div>
         <p className="mt-2 max-w-md">
           A capstone demo built for CSTU — a short-course platform combining a
           marketing landing page, an AI advisor, full-stack APIs, and an admin

@@ -1,4 +1,4 @@
-# Catalyst — Short AI Courses (Capstone Demo)
+# CSTU Short Courses — Short AI Courses (Capstone Demo)
 
 A small but complete course-selling platform: a marketing **landing page**, an
 **AI course advisor**, full-stack **APIs**, a working **enroll/checkout** flow,

@@ -230,7 +230,7 @@ export const COURSES: Course[] = [
     title: "Bitcoin × AI for Builders",
     titleZh: "比特币 × AI · 开发者实战",
     tagline: "Ship protocol-level Bitcoin code, with AI as your pair.",
-    price: 499,
+    price: 299,
     priceInPerson: 599,
     weeks: 3,
     sessions: 6,

@@ -1,0 +1,43 @@
+name: Deploy to Cloud Run
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Keyless auth to GCP via Workload Identity Federation (OIDC).
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  PROJECT_ID: astute-baton-498415-b0
+  REGION: us-west1
+  SERVICE: cstu-short-courses
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/298039817068/locations/global/workloadIdentityPools/github-pool/providers/github-provider
+          service_account: github-deployer@astute-baton-498415-b0.iam.gserviceaccount.com
+
+      - uses: google-github-actions/setup-gcloud@v2
+
+      # Build from source (Cloud Build) and deploy. Env vars already set on the
+      # service (e.g. ANTHROPIC_API_KEY) are preserved — we intentionally don't
+      # pass --set-env-vars so manual secrets survive across deploys.
+      - name: Deploy
+        run: |
+          gcloud run deploy "$SERVICE" \
+            --source . \
+            --project "$PROJECT_ID" \
+            --region "$REGION" \
+            --allow-unauthenticated \
+            --max-instances 1 \
+            --port 8080

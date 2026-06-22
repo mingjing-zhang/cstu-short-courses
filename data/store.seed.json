@@ -1,0 +1,183 @@
+{
+  "enrollments": [
+    {
+      "id": "95a909fa-fab6-44eb-a376-f093542c740e",
+      "name": "Mei Lin",
+      "email": "mei.lin@example.com",
+      "courseId": "agentic",
+      "listPrice": 399,
+      "referredBy": "105qz0",
+      "createdAt": "2026-06-21T08:00:00Z",
+      "discount": 39.9,
+      "amount": 359.1,
+      "status": "paid"
+    },
+    {
+      "id": "c902940d-ada6-4523-8646-fcdfbdcc8395",
+      "name": "Carlos Reyes",
+      "email": "carlos.r@example.com",
+      "courseId": "agentic",
+      "listPrice": 399,
+      "referredBy": null,
+      "createdAt": "2026-06-20T07:00:00Z",
+      "discount": 0,
+      "amount": 399,
+      "status": "paid"
+    },
+    {
+      "id": "b5e0cc16-64f2-45df-931a-7be43f184a67",
+      "name": "Priya Nair",
+      "email": "priya.nair@example.com",
+      "courseId": "fullstack",
+      "listPrice": 399,
+      "referredBy": "105qz0",
+      "createdAt": "2026-06-19T06:00:00Z",
+      "discount": 39.9,
+      "amount": 359.1,
+      "status": "paid"
+    },
+    {
+      "id": "5c23e7cc-0c3e-4b86-8409-668f23bdfa79",
+      "name": "Tom Becker",
+      "email": "tom.becker@example.com",
+      "courseId": "fullstack",
+      "listPrice": 399,
+      "referredBy": null,
+      "createdAt": "2026-06-18T05:00:00Z",
+      "discount": 0,
+      "amount": 399,
+      "status": "paid"
+    },
+    {
+      "id": "0d2ea080-68ac-4919-a07c-7c405af2748c",
+      "name": "Jen Wu",
+      "email": "jen.wu@example.com",
+      "courseId": "opcs",
+      "listPrice": 199,
+      "referredBy": "1ak7yk",
+      "createdAt": "2026-06-17T04:00:00Z",
+      "discount": 19.9,
+      "amount": 179.1,
+      "status": "paid"
+    },
+    {
+      "id": "e5a13f6f-e7da-4110-98d6-934726d144d9",
+      "name": "Sven Olsen",
+      "email": "sven.olsen@example.com",
+      "courseId": "btc-ai",
+      "listPrice": 499,
+      "referredBy": null,
+      "createdAt": "2026-06-16T03:00:00Z",
+      "discount": 0,
+      "amount": 499,
+      "status": "paid"
+    }
+  ],
+  "payouts": {},
+  "contacts": {
+    "mei.lin@example.com": {
+      "wechat": "meilin_ai"
+    },
+    "carlos.r@example.com": {
+      "phone": "408-221-6251"
+    },
+    "jen.wu@example.com": {
+      "wechat": "jenwu_sf"
+    }
+  },
+  "messages": [
+    {
+      "id": "99665b8f-bc93-4039-8dd7-3a29d1639e61",
+      "email": "mei.lin@example.com",
+      "body": "什么时候开课？周末有空可以上课吗？谢谢",
+      "createdAt": "2026-06-21T09:10:00Z",
+      "read": false,
+      "outgoing": false
+    },
+    {
+      "id": "2d2fb686-632a-44b4-83ea-478c7b7db28f",
+      "email": "jen.wu@example.com",
+      "body": "Please add me to the OPCS 课程服务群, my wechat id: jenwu_sf. Thanks!",
+      "createdAt": "2026-06-20T11:00:00Z",
+      "read": false,
+      "outgoing": false
+    },
+    {
+      "id": "0772c7cc-4ab3-4e24-aee5-427665faf811",
+      "email": "carlos.r@example.com",
+      "body": "Loved the first session — can I get the recording link?",
+      "createdAt": "2026-06-20T12:00:00Z",
+      "read": true,
+      "outgoing": false
+    },
+    {
+      "id": "f2c8091b-7d3b-435b-a4b5-30ecff4bb7f8",
+      "email": "carlos.r@example.com",
+      "body": "Sure! It is posted under Content → recordings. See you Saturday.",
+      "createdAt": "2026-06-20T12:30:00Z",
+      "read": true,
+      "outgoing": true
+    },
+    {
+      "id": "27f501cb-a2d8-4e05-895d-85298640af55",
+      "email": "priya.nair@example.com",
+      "body": "请问缴费后多久入群？",
+      "createdAt": "2026-06-19T07:00:00Z",
+      "read": false,
+      "outgoing": false
+    },
+    {
+      "id": "e8bd12d9-86ec-4011-835e-8d552fe8527a",
+      "email": "mei.lin@example.com",
+      "body": "Hi Mei — first session is Sat 10am, Zoom link in Content.",
+      "createdAt": "2026-06-22T08:05:25.774Z",
+      "read": true,
+      "outgoing": true
+    }
+  ],
+  "broadcasts": [
+    {
+      "id": "dc04a483-6f87-4ebe-bd2a-a70c4a470a68",
+      "body": "请缴费后添加助教微信 anzzin_ta 入学习群，开课前会发 Zoom 链接。",
+      "createdAt": "2026-06-18T02:00:00Z"
+    }
+  ],
+  "sessionLinks": {
+    "agentic": {
+      "online": "https://zoom.us/j/91234567890",
+      "inperson": "CSTU Room 2-118"
+    }
+  },
+  "sessionMeta": {
+    "agentic:01": {
+      "scheduled": "2026-05-02T02:00:00+00:00",
+      "recording": "https://www.youtube.com/watch?v=suVHjJh3dTo",
+      "materials": "Slides | https://example.com/agentic-01.pdf\nWorksheet (PDF) | https://example.com/agentic-01-wb.pdf"
+    }
+  },
+  "videos": [
+    {
+      "id": "d36963c5-2d85-47ca-834d-cd56ab1572e4",
+      "youtube": "https://www.youtube.com/watch?v=suVHjJh3dTo",
+      "title": "想进入 AI 时代却不知道如何开始？认识 AI、了解 AI、用好 AI",
+      "source": "安心学堂 Anzzin × BayAI Circle",
+      "sort": 0,
+      "hidden": false
+    },
+    {
+      "id": "4f65560c-31a1-4493-a315-042cb421f47d",
+      "youtube": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "title": "What is an AI agent, really? A 10-minute intro",
+      "source": "Catalyst — Short AI Courses",
+      "sort": 1,
+      "hidden": false
+    }
+  ],
+  "attendance": {
+    "agentic:mei.lin@example.com:1": true,
+    "agentic:mei.lin@example.com:2": true,
+    "agentic:mei.lin@example.com:3": true,
+    "agentic:carlos.r@example.com:1": true,
+    "fullstack:priya.nair@example.com:1": true
+  }
+}

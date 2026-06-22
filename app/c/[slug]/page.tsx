@@ -207,7 +207,7 @@ export default async function CourseLanding({
 
       <footer className="border-t hairline">
         <div className="max-w-6xl mx-auto px-6 sm:px-10 py-8 text-xs text-muted flex flex-wrap justify-between gap-3">
-          <span>CSTU Short Courses · a CSTU capstone demo · CSE642 (frontend + AI) × CSE552 (full-stack)</span>
+          <span>CSTU Short Courses · built with skills from CSE642 (frontend + AI) × CSE552 (full-stack)</span>
           <span>Demo content for illustration.</span>
         </div>
       </footer>

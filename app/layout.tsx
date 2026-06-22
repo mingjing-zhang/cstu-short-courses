@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "CSTU Short Courses · Short AI Courses",
   description:
-    "Live, short-format AI courses for founders, marketers, and curious beginners. A CSTU capstone demo.",
+    "Live, short-format AI courses for founders, marketers, and curious beginners.",
 };
 
 export default function RootLayout({

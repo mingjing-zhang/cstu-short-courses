@@ -4,9 +4,8 @@ export default function SiteFooter() {
       <div className="max-w-5xl mx-auto px-6 py-10 text-sm text-muted">
         <div className="font-display italic text-lg text-ink">CSTU Short Courses</div>
         <p className="mt-2 max-w-md">
-          A capstone demo built for CSTU — a short-course platform combining a
-          marketing landing page, an AI advisor, full-stack APIs, and an admin
-          back office.
+          A short-course platform for CSTU — a marketing landing page, an AI
+          advisor, full-stack APIs, and an admin back office.
         </p>
         <div className="mt-6 grid gap-1 text-xs">
           <span>

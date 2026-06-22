@@ -1,10 +1,10 @@
-# CSTU Short Courses — Short AI Courses (Capstone Demo)
+# CSTU Short Courses — a platform for selling live AI courses
 
 A small but complete course-selling platform: a marketing **landing page**, an
 **AI course advisor**, full-stack **APIs**, a working **enroll/checkout** flow,
 a **referral** mechanic, and an **admin** back office.
 
-Built as a CSTU capstone that combines two courses:
+It brings together skills from two CSTU courses:
 
 - **CSE642** — the frontend landing page + the AI advisor integration
 - **CSE552** — the full-stack API routes, data store, and admin back office
@@ -36,7 +36,7 @@ saved to a local JSON file (`data/store.json`).
 
 The advisor lives at `app/api/advisor/route.ts`.
 
-- **Out of the box** it uses a built-in rule-based recommender, so the demo
+- **Out of the box** it uses a built-in rule-based recommender, so it
   always works with zero setup.
 - **Make it live**: copy `.env.example` to `.env.local`, add an
   `ANTHROPIC_API_KEY`, and restart. The advisor then calls Claude and writes a
@@ -45,10 +45,10 @@ The advisor lives at `app/api/advisor/route.ts`.
 
 ## How it maps to a real product
 
-This demo deliberately stubs the parts that need real infrastructure, and the
+This build deliberately stubs the parts that need real infrastructure, and the
 code notes where:
 
-| Demo | Production |
+| This build | Production |
 | --- | --- |
 | JSON-file store | Postgres / SQLite + an ORM |
 | "Pay (demo)" button | Stripe Checkout + webhook |

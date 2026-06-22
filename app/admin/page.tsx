@@ -52,7 +52,7 @@ export default function AdminPage() {
           </button>
         </div>
         <p className="text-muted text-sm mt-2">
-          Demo back office. Payments are simulated — no card is charged. This sits behind
+          Back office. Payments are simulated — no card is charged. This sits behind
           staff sign-in (a CSE552 topic) — the demo password is{" "}
           <span className="font-mono text-ink">lovecstu1234</span>.
         </p>
